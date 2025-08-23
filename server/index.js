@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 5555;
 
 
 app.use(cors({
-  origin: 'https://book-stack-gamma.vercel.app',
+  origin: ['https://book-stack-gamma.vercel.app', 'http://localhost:5173'],
   credentials: true
 }));
 

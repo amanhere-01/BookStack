@@ -59,9 +59,9 @@ function SignUp() {
 
 
   return (
-      <div className="min-h-screen h-screen w-full flex font-sans overflow-hidden">
+      <div className="h-full w-full flex flex-col md:flex-row font-sans overflow-hidden">
         {/*Left Side */}
-        <div className="w-1/2">
+        <div className='w-full'>
           <img
             src={background}
             alt="Background theme"
@@ -70,7 +70,7 @@ function SignUp() {
         </div>
 
         {/*Right Side */}
-        <div className="w-1/2 flex items-center justify-center bg-red-50 px-4">
+        <div className="w-full flex items-center justify-center bg-red-50 px-4">
           <div className="w-full max-w-md backdrop-blur-lg bg-white/10 border border-white/20 rounded-2xl shadow-2xl p-8">
             <h2 className="text-gray-800 text-2xl font-bold mb-6 text-center">
               Create a new account
